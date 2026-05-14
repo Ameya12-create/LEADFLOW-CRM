@@ -110,38 +110,46 @@ LeadFlow_CRM/
 │   └── package.json
 │
 └── README.md
+
 ⚙️ Installation & Setup
+
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/leadflow-crm.git
+
 2️⃣ Open Project
 cd leadflow-crm
+
 3️⃣ Setup Backend
 cd server
 npm install
+
 4️⃣ Create .env File Inside server
 PORT=5000
 
 MONGO_URI=your_mongodb_connection_string
 
 JWT_SECRET=your_secret_key
+
 5️⃣ Run Backend
 npm run dev
 
 Backend runs on:
 
 http://localhost:5000
+
 6️⃣ Setup Frontend
 
 Open new terminal:
-
 cd client
 npm install
+
 7️⃣ Run Frontend
 npm run dev
 
 Frontend runs on:
 
 http://localhost:5173
+
 🔗 API Endpoints
 Authentication
 Register User
@@ -157,24 +165,25 @@ Delete Lead
 DELETE /api/leads/:id
 Update Lead Status
 PUT /api/leads/:id
+
 🔒 Authentication Flow
 User registers/login
 Backend generates JWT token
 Token stored in localStorage
 Axios interceptor attaches token
 Protected routes validate access
+
 📸 Screenshots
 Dashboard
 
-(Add Screenshot)
+![Dashboard](./screenshots/dashboard.png)
 
 Leads Page
-
-(Add Screenshot)
+[!Leads](./screenshots/lead.png)
 
 Login Page
 
-(Add Screenshot)
+![login](./screenshots/login.png)
 
 🚀 Deployment
 Frontend Deployment
@@ -183,19 +192,30 @@ Backend Deployment
 Render
 Database
 MongoDB Atlas
+
 🧠 Learning Outcomes
 
 This project demonstrates:
 
 Full-stack development
+
 REST API architecture
+
 Authentication systems
+
 MongoDB integration
+
 Frontend/backend integration
+
 State management
+
 Deployment workflows
+
 Modern UI design principles
+
+
 📈 Future Improvements
+
 Drag-and-drop Kanban board
 Email integration
 Role-based authentication
@@ -203,15 +223,10 @@ Real-time notifications
 Team collaboration
 Data analytics charts
 Dark/light theme toggle
+
 👨‍💻 Author
 
 Ameya Joshi
-
-LinkedIn:
-(Add LinkedIn URL)
-
-GitHub:
-(Add GitHub URL)
 
 ⭐ If you like this project
 
