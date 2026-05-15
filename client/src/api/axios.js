@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API = axios.create({
-  baseURL: "https://leadflow-crm-backend-dera.onrender.com",
+  baseURL: "https://leadflow-crm-t2np.onrender.com",
 })
 
 API.interceptors.request.use((req) => {
